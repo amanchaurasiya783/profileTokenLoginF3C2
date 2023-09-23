@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html body {
+    font-size: 14px;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3Csvg width='1280' height='280' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M-24 0L1500 351.443V487H-24V0Z' fill='%235BF7DB' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#profileImage {
+    text-align: center;
+    margin: auto;
+    font-size: 8rem;
+    color: rgba(98, 91, 247, 1);
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: rgba(98, 91, 247, 1);
+}
+
+.container {
+    width: 400px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0 0 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+}
+
+.bg-color-purple {
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+}
+
+.color-purple {
+    color: rgba(98, 91, 247, 1);
+}
+
+button {
+    padding: 0.3rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.signupBox {
+    display: block !important;
+}
+
+#inputFieldAlert {
+    display: none;
+}

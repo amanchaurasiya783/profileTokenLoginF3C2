@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="container signupBox">
+        <p id="greetText">Welcome back! 👋</p>
+        <h2>Sign up to your account</h2>
+        <form id="form">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Your Email</label>
+            <input type="text" name="email" id="email" required />
+            <label for="password">Your Password</label>
+            <input type="text" name="password" id="password" required />
+            <label for="cpassword">Confirm Passowrd</label>
+            <input type="text" name="cpassword" id="cpassword" required />
+            <button id="signup" class="bg-color-purple">Continue</button>
+        </form>
+        <h3 id="inputFieldAlert" class="color-purple">Error: All fields are mandatory!</h3>
+    </div>
+    <p id="notice">Don’t have an account? <span style="cursor: pointer;" class="color-purple">Sign up</span></p>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
