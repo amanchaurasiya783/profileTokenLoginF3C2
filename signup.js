@@ -9,7 +9,7 @@ function fetchUserData() {
     if (userDataJSON) {
         return JSON.parse(userDataJSON);
     } else {
-        return null;
+        return false;
     }
 }
 
