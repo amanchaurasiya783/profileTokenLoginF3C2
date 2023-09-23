@@ -15,6 +15,8 @@ function fetchUserData() {
 
 const userData = fetchUserData();
 
+const currentURL = window.location.href;
+
 
 // Define the URLs for the Profile and Signup pages
 const profilePageURL = '/profile';
