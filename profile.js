@@ -7,7 +7,7 @@ const logoutBtn = document.getElementById("logout");
 
 logoutBtn.addEventListener('click', () => {
     localStorage.removeItem('token');
-    window.location.href = 'signup.html';
+    window.location.href = 'signup';
 })
 
 const userData = fetchUserData();
@@ -16,9 +16,9 @@ const userData = fetchUserData();
 const currentURL = window.location.href;
 
 // Define the URLs for the Profile and Signup pages
-const profilePageURL = '/profile.html';
-const signupPageURL = '/signup.html';
-const indexPage = '/index.html';
+const profilePageURL = '/profile';
+const signupPageURL = '/signup';
+const indexPage = '/index';
 
 // Check if the user is on the Profile page without a token
 if (window.location.pathname.includes(profilePageURL) && !userData) {
