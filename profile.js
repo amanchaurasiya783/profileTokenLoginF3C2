@@ -30,11 +30,6 @@ if (window.location.pathname.includes(signupPageURL) && userData) {
     window.location.href = profilePageURL;
 }
 
-
-if (currentURL.includes(indexPage)) {
-    window.location.href = signupPageURL;
-}
-
 // Function to fetch data from localStorage
 function fetchUserData() {
     const userDataJSON = localStorage.getItem('token');
